@@ -100,15 +100,15 @@ a {
 }
 
 .brand-mark img {
-  width: 1.75rem;
-  height: auto;
+  width: 2.1rem;
+  height: 2.1rem;
+  object-fit: contain;
   filter: brightness(0) invert(1);
   transition: filter 0.3s var(--ease-out);
 }
 
 .site-header.is-scrolled .brand-mark img {
   filter: none;
-  color: var(--barn);
 }
 
 .nav {
@@ -211,8 +211,10 @@ a {
 }
 
 .hero-logo {
-  width: clamp(3rem, 7vw, 4.5rem);
+  width: clamp(3.5rem, 9vw, 5.5rem);
   height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
   filter: brightness(0) invert(1);
   animation: float-logo 5s ease-in-out infinite;
 }
@@ -651,8 +653,9 @@ h2 {
 }
 
 .footer-brand img {
-  color: var(--barn);
-  width: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
 }
 
 .footer-brand strong {
